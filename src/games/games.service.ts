@@ -8,6 +8,7 @@ import { Game } from './entities/game.entity';
 export class GamesService {
   private readonly logger = new Logger('GamesService');
 
+  
   constructor( 
     @InjectModel(Game)
     private gameModel: typeof Game,
